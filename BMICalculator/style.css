@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculator{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    background-color:darkblue;
+    color: white;
+    margin: 48px;
+   
+}
+
+#input1::placeholder{
+text-align: right;
+position:relative;
+}
+#input2::placeholder{
+    text-align: right;
+    position:relative;
+
+}
+.age{
+    display: flex;
+    margin: 0 80PX;
+    align-items: center;
+
+    
+}
+button{
+    height:30px;
+}
+#btn1{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+i{
+    color: green;
+}
+#btn2{
+    background-color: deeppink;
+    color: white;
+    cursor: pointer;
+}
